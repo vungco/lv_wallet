@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LV Wallet",
+  "version": "1.0",
+  "description": "A simple extension to get started.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  }
+}
