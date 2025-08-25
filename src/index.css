@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-scroll {
+    overflow: auto;
+    /* vẫn cuộn được */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.my-scroll::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
